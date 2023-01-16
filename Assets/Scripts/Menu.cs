@@ -9,6 +9,7 @@ public class Menu : MonoBehaviour {
 	{
 		animator.SetTrigger("Start");
 		AudioManager.instance.Play("Click");
+		//Application.targetFrameRate = 31;
 	}
 
 	public void Quit ()
@@ -21,6 +22,7 @@ public class Menu : MonoBehaviour {
 	public void Hover ()
 	{
 		AudioManager.instance.Play("Click");
+		//Application.targetFrameRate = 31;
 	}
 
 	public void LoadLevel ()

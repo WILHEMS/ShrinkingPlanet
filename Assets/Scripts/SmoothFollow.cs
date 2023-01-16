@@ -12,6 +12,7 @@ public class SmoothFollow : MonoBehaviour {
 	public Vector3 offset;
 
 	private Vector3 velocity = Vector3.zero;
+	
 
 	// Update is called once per frame
 	void FixedUpdate () {
@@ -20,6 +21,7 @@ public class SmoothFollow : MonoBehaviour {
 		{
 			return;
 		}
+		Application.targetFrameRate = 31;
 		
 		Vector3 newPos = target.TransformDirection(offset);
 		//transform.position = newPos;

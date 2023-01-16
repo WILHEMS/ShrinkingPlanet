@@ -9,6 +9,7 @@ public class MeteorSpawner : MonoBehaviour {
 	void Start ()
 	{
 		StartCoroutine(SpawnMeteor());
+		//Application.targetFrameRate = 31;
 	}
 
 	IEnumerator SpawnMeteor()

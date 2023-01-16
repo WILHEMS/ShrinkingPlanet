@@ -11,6 +11,7 @@ public class PlayerController : MonoBehaviour {
 	void Start ()
 	{
 		rb = GetComponent<Rigidbody>();
+		//Application.targetFrameRate = 31;
 	}
 
 	void Update ()
