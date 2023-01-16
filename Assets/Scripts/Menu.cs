@@ -22,7 +22,7 @@ public class Menu : MonoBehaviour {
 	public void Hover ()
 	{
 		AudioManager.instance.Play("Click");
-		//Application.targetFrameRate = 31;
+		Application.targetFrameRate = 31;
 	}
 
 	public void LoadLevel ()
